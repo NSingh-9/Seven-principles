@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(18, 43, 50);
+color: rgb(204, 247, 247);
+font-family: "Winky Rough", sans-serif;
+}
+
+a {
+    color: rgb(255, 230, 0);
+    text-decoration: none;
+    font-style:italic ;
+    border: 2px solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius:0px 16px;
+    transition: all 0.5px;
+
+}
+
+main {
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+h1 {
+    font-family: "Caesar Dressing", system-ui;
+    font-size:100px;
+    line-height: 90%;
+    margin-bottom:0px ;
+    
+    
+}
+h2 {
+    background-color: rgb(243, 238, 175);
+     border: 10px solid rgb(255, 188, 5);  
+    
+    
+    color: rgb(24, 80, 80);
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom:60px;
+    margin-top: 60px;
+   
+}
+
+em {
+    
+margin-left: 30px;
+}
+h3{
+    font-family:"Caesar Dressing", system-ui;
+     background-color: rgb(8, 62, 73);
+    color: rgb(255, 230, 0);
+    padding: 16px;
+    border-radius: 16px;
+}
+h4{
+    font-family:"Caesar Dressing", system-ui;
+     background-color: rgb(8, 62, 73);
+    color: rgb(255, 230, 0);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+a:hover {
+    color: rgb(255, 140, 0);
+    background-color:rgb(247, 212, 172);
+
+}
+ 
+ 
