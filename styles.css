@@ -32,12 +32,12 @@ h1 {
 }
 h2 {
     background-color: rgb(243, 238, 175);
-     border: 10px solid rgb(255, 188, 5);  
+     border: 10px solid rgb(255,230, 0);  
     
     
     color: rgb(24, 80, 80);
-    padding: 16px;
-    border-radius: 16px;
+    padding: 40px;
+    border-radius: 0px 100px;
     margin-bottom:60px;
     margin-top: 60px;
    
@@ -52,20 +52,27 @@ h3{
      background-color: rgb(8, 62, 73);
     color: rgb(255, 230, 0);
     padding: 16px;
-    border-radius: 16px;
+    border-radius: 0px 40px;
+    border: 5px solid rgb(255, 230, 0);
 }
 h4{
     font-family:"Caesar Dressing", system-ui;
      background-color: rgb(8, 62, 73);
     color: rgb(255, 230, 0);
     padding: 16px;
-    border-radius: 16px;
+    border-radius: 0px 40px;
+    border: 5px solid rgb(255, 230, 0);
 }
 
 a:hover {
-    color: rgb(255, 140, 0);
-    background-color:rgb(247, 212, 172);
+    color: rgb(255, 187, 0);
+    background-color:rgb(247, 240, 209);
 
 }
  
- 
+ .different {
+    font-style: italic;
+    color: rgb(255, 230, 0);
+
+    
+ }
