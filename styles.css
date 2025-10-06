@@ -6,6 +6,7 @@ font-family: "Winky Rough", sans-serif;
 
 a {
     color: rgb(255, 230, 0);
+   
     text-decoration: none;
     font-style:italic ;
     border: 2px solid;
@@ -26,7 +27,16 @@ h1 {
     font-family: "Caesar Dressing", system-ui;
     font-size:100px;
     line-height: 90%;
-    margin-bottom:0px ;
+    margin-bottom:0px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #ffd000, #00ffee);
+    background-size: 100%;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+
     
     
 }
@@ -48,20 +58,32 @@ em {
 margin-left: 30px;
 }
 h3{
-    font-family:"Caesar Dressing", system-ui;
+    font-family:"Winky Rough", sans-serif;
      background-color: rgb(8, 62, 73);
     color: rgb(255, 230, 0);
     padding: 16px;
     border-radius: 0px 40px;
     border: 5px solid rgb(255, 230, 0);
+     border-radius: 0px 40px;
+    border: 5px solid rgb(255, 230, 0);
+    background: linear-gradient(rgb(18, 43, 50), rgb(24, 80, 80)) padding-box,
+    linear-gradient(to right, rgb(255, 234, 0), rgb(0, 255, 247)) border-box;
+  border-radius: 0px 40px;
+  border: 4px solid transparent;
+    
 }
 h4{
-    font-family:"Caesar Dressing", system-ui;
+    font-family:"Winky Rough", sans-serif;
+    font: weight 600px;;
      background-color: rgb(8, 62, 73);
-    color: rgb(255, 230, 0);
+    color: rgb(249, 247, 189);
     padding: 16px;
     border-radius: 0px 40px;
     border: 5px solid rgb(255, 230, 0);
+    background: linear-gradient(rgb(18, 43, 50), rgb(24, 80, 80)) padding-box,
+    linear-gradient(to right, rgb(255, 234, 0), rgb(0, 255, 247)) border-box;
+  border-radius: 0px 40px;
+  border: 4px solid transparent;
 }
 
 a:hover {
